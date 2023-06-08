@@ -1,0 +1,668 @@
+body {
+  background-color: #000c14;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+/* SECTION 1 */
+
+.section1 {
+  margin: 0 auto;
+  padding: 300px 5%;
+  min-height: 600px;
+  background-image: url("../photos/Group-Training-Solution-Story-Hero-Slide.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding-inline: 5%;
+  min-height: 96px;
+  background-color: hsla(188, 87%, 15%, 0.75);
+  max-width: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.logo_text1 {
+  font-size: 2rem;
+  font-family: "Orbitron";
+  color: #2edaf1;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 3em;
+}
+
+ul li a {
+  color: white;
+  font-family: "Electrolize";
+  font-size: 1.2rem;
+  transition-duration: 1s;
+}
+
+.active {
+  color: #2edaf1;
+}
+
+ul li a:hover {
+  color: #2edaf1;
+}
+
+.login_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.login_text {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Electrolize";
+  transition-duration: 1s;
+}
+
+.login_icon {
+  color: white;
+  font-size: 1.2rem;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.login_text:hover {
+  color: #2edaf1;
+}
+
+.login_icon:hover {
+  color: #2edaf1;
+}
+
+.section1_heading_box {
+  padding: 20px 3%;
+  border-radius: 10px;
+  width: 40%;
+  background-color: hsla(188, 87%, 15%, 0.75);
+}
+
+.section1_heading1 {
+  color: white;
+  font-size: 2rem;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+
+.section1_paragraph1 {
+  color: white;
+  font-family: "Inter";
+  line-height: 1.5;
+  margin-bottom: 5em;
+}
+
+.button_read_more {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  color: white;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  padding: 15px 40px;
+  border: 1.5px solid #2edaf1;
+  border-radius: 30px;
+  display: block;
+  margin-inline: auto;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.button_read_more:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.section1_watch {
+  width: 40%;
+  /* border: 2px solid red; */
+}
+
+.watch_video {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 2em;
+}
+
+.playbutton {
+  background-color: hsla(188, 87%, 15%);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  border: 2px solid #2edaf1;
+  border-radius: 50%;
+  padding: 18px 25px;
+  color: white;
+  font-size: 1.5rem;
+  transition-duration: 1s;
+}
+
+.playbutton:hover {
+  background-color: #2edaf1;
+  color: black;
+  cursor: pointer;
+}
+
+.watch_workouts_text {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Electrolize";
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.watch_workouts_text:hover {
+  color: #2edaf1;
+}
+
+.watch_video_paragraph {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  border-radius: 10px;
+  padding: 2em 2em;
+  color: white;
+  font-family: "Inter";
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+}
+
+/* SECTION 2  */
+.section2_why_choose_us {
+  margin: 150px auto 220px auto;
+  /* border-bottom: 2px solid gray; */
+  width: 90%;
+}
+
+.section2_heading {
+  color: white;
+  font-family: "Electrolize";
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.span_xfitness_2 {
+  color: #2edaf1;
+}
+
+.why_choose_article {
+  /* border: 2px solid red; */
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article_card1 {
+  margin-bottom: 8em;
+  width: 24%;
+  padding: 2em 1em;
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px solid #ffffff29;
+  border-radius: 10px;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.article_card1:hover {
+  background-color: hsla(188, 87%, 15%);
+  transform: scale(1.2);
+  overflow: hidden;
+}
+
+.dumbell_icon,
+.heart_icon,
+.runing_icon,
+.data_analysys {
+  background-color: #2edaf1;
+  border-radius: 50%;
+  padding: 20px 20px;
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+
+.personal_plan {
+  color: white;
+  font-size: 1.4rem;
+  font-family: "electrolize";
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+}
+
+.personal_plan_paragraph {
+  color: #ffffff70;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.trusted_by_heading {
+  border-top: 2px solid #ffffff29;
+  padding-top: 100px;
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Electrolize";
+  text-align: center;
+}
+
+.active_members_span {
+  color: #2edaf1;
+}
+
+/* SECTION 3 */
+.section3_explore_new {
+  margin: 200px auto;
+  padding-inline: 5%;
+  display: flex;
+  gap: 12em;
+  /* border: 2px solid red; */
+}
+
+.explore_box {
+  /* border: 2px solid red; */
+  width: 30%;
+}
+
+.explore_your_heading {
+  color: white;
+  font-size: 2rem;
+  font-family: "Electrolize";
+  margin-bottom: 1em;
+}
+
+.span_routine {
+  color: #2edaf1;
+}
+
+.explore_your_paragraph {
+  color: white;
+  font-family: "inter";
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 2em;
+}
+
+.button_allservices {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  border: 1.5px solid #2edaf1;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.button_allservices:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.section3_cards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3em;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.cards_1 {
+  width: 47%;
+  padding-inline: 4%;
+  min-height: 370px;
+  border-radius: 10px;
+  background-image: url("../photos/neon2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-duration: 1s;
+}
+
+.cards_1:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.cover2 {
+  background-image: url("../photos/1.jpeg");
+}
+
+.cover3 {
+  background-image: url("../photos/neon1.jpeg");
+}
+
+.cover4 {
+  background-image: url("../photos/inline_image_preview.jpg");
+}
+
+.cards_heading {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin: 200px auto 5px auto;
+}
+.cards_paragraph {
+  color: white;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.button_read_more1 {
+  border: none;
+  background-color: transparent;
+  font-family: "Electrolize";
+  color: #2edaf1;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* SECTION 4 OUR TEAM */
+
+.section4_our_team {
+  margin: 0 auto;
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
+  padding: 5% 5%;
+  width: 95%;
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px solid #ffffff29;
+  border-radius: 20px;
+}
+
+.our_team_heading {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Electrolize";
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.span_our_team {
+  color: #2edaf1;
+}
+
+.our_team_paragraph {
+  color: #ffffff70;
+  text-align: center;
+  width: 40%;
+  margin-inline: auto;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 80px;
+}
+
+.our_team_box {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.team1_cover {
+  width: 48%;
+  height: 400px;
+  border-radius: 20px;
+  background-image: url("../photos/training-personal-training-6be157a571dcb729655c27c53369c3c57363f3d0768512b142da09301940f5e7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.secondteam {
+  background-image: url("../photos/personal\ 2.webp");
+}
+
+.our_team_about {
+  width: 43%;
+  margin-inline: auto;
+  background-color: #01141d;
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px solid #ffffff29;
+  border-radius: 10px;
+  padding: 4%;
+  transition-duration: 0.5s;
+}
+
+.our_team_about:hover {
+  overflow: hidden;
+  transform: scale(1.1);
+}
+
+.team_about {
+  font-size: 2rem;
+  color: white;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.span_training {
+  color: #2edaf1;
+}
+
+.team_about_paragraph {
+  text-align: center;
+  color: #ffffff70;
+  font-family: "Inter";
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 2em;
+}
+
+.view_details_box {
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+
+.button_view_details {
+  border-style: none;
+  background-color: inherit;
+  color: #2edaf1;
+  font-size: 1.1rem;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.arrowright {
+  color: #2edaf1;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.button_view_project {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  font-size: 1.1rem;
+  color: white;
+  font-family: "Electrolize";
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  border: 1.5px solid #2edaf1;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 1s;
+  display: block;
+  margin-inline: auto;
+}
+.button_view_project:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+/* SECTION 5 STATISTIC*/
+.section5_statistic_info {
+  margin: 200px auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.statistic_box1 {
+  width: 22%;
+  padding-inline: 1%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-right: 1px solid #ffffff29;
+}
+
+.fourth {
+  border-style: none;
+}
+
+.globeicon,
+.usericon,
+.staricon,
+.shieldicon {
+  color: #2edaf1;
+  font-size: 3.5rem;
+}
+
+.partner_text {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Orbitron";
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.span_plus {
+  color: #2edaf1;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.trusted_text {
+  color: #ffffff70;
+  font-size: 1.1rem;
+  font-family: "Inter";
+  font-weight: 300;
+}
+
+/* FOOTER */
+
+footer {
+  margin: 0 auto;
+  padding: 2% 4% 5% 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_div1 {
+  display: flex;
+  gap: 30px;
+}
+
+.footer_div1 a {
+  color: white;
+  font-family: "Electrolize";
+  font-size: 1.2rem;
+  transition-duration: 1s;
+}
+
+.footer_div1 a:hover {
+  color: #2edaf1;
+}
+
+.logo_footer {
+  font-size: 2rem;
+  font-family: "Orbitron";
+  color: #2edaf1;
+  cursor: pointer;
+}
+
+.social_networks {
+  display: flex;
+  gap: 15px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.youtube {
+  color: white;
+  border: 1px solid #2edaf1;
+  border-radius: 50%;
+  padding: 12px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(0.9);
+}
+
+.twitter:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(0.9);
+}
+
+.instagram:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(0.9);
+}
+
+.youtube:hover {
+  background-color: #2edaf1;
+  color: black;
+  transform: scale(0.9);
+}
+
+
