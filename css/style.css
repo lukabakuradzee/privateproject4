@@ -293,7 +293,7 @@ ul li a:hover {
 .explore_your_heading {
   color: white;
   font-size: 2rem;
-  font-family: "Electrolize";
+  font-family: "Orbitron";
   margin-bottom: 1em;
 }
 
@@ -729,6 +729,7 @@ footer {
 .membership_cards1:hover {
   overflow: hidden;
   transform: scale(1.05);
+  
 }
 
 
@@ -775,7 +776,7 @@ footer {
 .section3_statistic_info {
   margin: 0px auto 200px auto;
   width: 90%;
-  padding: 6% 3%;
+  padding: 7% 1%;
   display: flex;
   justify-content: space-between;
   background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
@@ -786,8 +787,8 @@ footer {
 
 /* SECTION 4 TESTIMONIALS */
 .section4_testimonials_membership {
-  margin: 0 auto 150px auto;
-  width: 95%;
+  margin: 0 auto 200px auto;
+  width: 90%;
   display: flex;
   justify-content: space-between;
 }
@@ -855,3 +856,114 @@ footer {
   letter-spacing: 1px;
 }
 
+/* SECTION 5 Heading */
+.section5_title {
+  width: 40%;
+  margin: 0 auto 100px;
+  /* border: 2px solid red; */
+}
+
+.find_your_question {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.span_question {
+  color: #2edaf1;
+}
+
+.find_your_paragraph {
+  color: #ffffff70;
+  font-size: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* SECTION 5 QUESTIONS  */
+.section5_questions {
+  margin: 0 auto 200px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.question_rows_div1 {
+  width: 48%;
+  padding: 2% 4%;
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px  solid #ffffff29;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.question_1 {
+  color: white;
+  font-family: "Orbitron";
+  letter-spacing: 1.5px;
+
+}
+
+.span_xfitness {
+  color: #2edaf1;
+}
+
+.down_icon {
+  color: #2edaf1;
+
+}
+
+
+
+
+/* ABOUT PAGE */
+.section1_about {
+  margin: 0 auto;
+  padding: 250px 5% 150px;
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
+  display: flex;
+  gap: 100px;
+
+}
+
+.section1_about_photo {
+  width: 50%;
+  height: 600px;
+  border-radius: 20px;
+  background-image: url("../photos/1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.transform_your_body {
+  /* margin-top: 150px; */
+  color: white;
+  font-size: 3rem;
+  font-family: "Orbitron";
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.transform_box {
+  width: 40%;
+}
+
+.span_fitness_experts {
+  color: #2edaf1;
+}
