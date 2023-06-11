@@ -908,8 +908,11 @@ footer {
   align-items: center;
   justify-content: space-between;
 
-
 }
+
+
+
+
 
 .question_1 {
   color: white;
@@ -1018,6 +1021,8 @@ footer {
   line-height: 1.3;
 }
 
+
+
 .our_mission_div {
   padding: 6%;
   background-color: transparent;
@@ -1071,5 +1076,136 @@ footer {
   background-repeat: no-repeat;
 
 }
+
+/* SECTION REPEAT WHY CHOOSE US */
+.why_choose_heading2 {
+  margin: 100px auto 150px;
+}
+.whychoose_second {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* SECTION 3 ABOUT WATCH */
+.section3_about_watch {
+  /* border: 2px solid red; */
+  margin: 0 auto 150px;
+  height: 650px;
+  background-image: url("../photos/LMNZ_Taranaki-street_01-841_Cycle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.watch_intro {
+  padding-top: 280px;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.watch_workouts_sessions {
+  color: white;
+  font-size: 2rem;
+  font-family: "Orbitron";
+
+}
+
+.span_workout_sessions {
+  color: #2edaf1;
+}
+
+/* SECTION 4 */
+.section4_title {
+  width: 50%;
+  padding-inline: 30px;
+  margin:0 auto 60px;
+}
+
+.section4_heading {
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.section4_paragraph {
+  color: #ffffff70;
+  font-family: "Inter";
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  text-align: center;
+  
+}
+
+.section4_about {
+  margin: 0 auto 150px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cards_parent_trainers {
+  width: 32%;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url("../photos/personal1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  /* border: 2px solid  red; */
+  
+}
+
+.trainer2_photo {
+  background-image: url("../photos/1.+Train+with+Damla.jpg");
+}
+
+.trainer3_photo {
+  background-image: url("../photos/Steven-Tinoco.jpg");
+}
+
+
+
+.cards_overlay {
+  width: 100%;
+  background-color: #01141DDE;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 1s ease;
+}
+
+.cards_parent_trainers:hover .cards_overlay {
+  height: 100%;
+}
+
+.soc_networks {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 83%;
+  left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
