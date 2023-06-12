@@ -177,7 +177,6 @@ ul li a:hover {
   letter-spacing: 1px;
   transition-duration: 0.5s;
   cursor: pointer;
-
 }
 
 .watch_workouts_text:hover {
@@ -236,6 +235,7 @@ ul li a:hover {
 .article_card1:hover {
   background-color: hsla(188, 87%, 15%);
   transform: translateY(-10%);
+  border-color: #2edaf1;
 }
 
 .dumbell_icon,
@@ -604,7 +604,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .footer_div1 {
@@ -714,7 +713,6 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
-  
 }
 
 .membership_cards1 {
@@ -732,9 +730,7 @@ footer {
 .membership_cards1:hover {
   overflow: hidden;
   transform: scale(1.05);
-  
 }
-
 
 .cover11 {
   background-image: url("../photos/cards15.jpeg");
@@ -750,7 +746,6 @@ footer {
 
 .cover14 {
   background-image: url("../photos/room5.jpeg");
-
 }
 
 .cover15 {
@@ -810,6 +805,7 @@ footer {
 .tesimonials_box1:hover {
   background-color: hsla(188, 87%, 15%);
   transform: translateY(-10%);
+  border-color: #2edaf1;
 }
 
 .testimonials_feedback_text {
@@ -832,7 +828,7 @@ footer {
   gap: 10px;
 }
 
-.user_photo_box{
+.user_photo_box {
   width: 60px;
   height: 60px;
 }
@@ -904,23 +900,23 @@ footer {
   background-color: transparent;
   background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
   border-width: 1px 1px 1px 1px;
-  border: 0.5px  solid #ffffff29;
+  border: 0.5px solid #ffffff29;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  transition: 0.5s;
 }
 
-
-
-
+.question_rows_div1:hover {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  border-color: #2edaf1;
+}
 
 .question_1 {
   color: white;
   font-family: "Orbitron";
   letter-spacing: 1.5px;
-
 }
 
 .span_xfitness {
@@ -929,11 +925,7 @@ footer {
 
 .down_icon {
   color: #2edaf1;
-
 }
-
-
-
 
 /* ABOUT PAGE */
 .section1_about {
@@ -942,7 +934,6 @@ footer {
   background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
   display: flex;
   gap: 100px;
-
 }
 
 .section1_about_photo {
@@ -993,12 +984,11 @@ footer {
   /* border: 2px solid red; */
 }
 
-.article_column  {
+.article_column {
   width: 50%;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-
 }
 
 .article1_heading {
@@ -1023,14 +1013,12 @@ footer {
   line-height: 1.3;
 }
 
-
-
 .our_mission_div {
   padding: 6%;
   background-color: transparent;
   background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
   border-width: 1px 1px 1px 1px;
-  border: 0.5px  solid #ffffff29;
+  border: 0.5px solid #ffffff29;
   border-radius: 10px;
   display: flex;
   gap: 20px;
@@ -1039,6 +1027,7 @@ footer {
 
 .our_mission_div:hover {
   background-color: hsla(188, 87%, 15%);
+  border-color: #2edaf1;
   cursor: pointer;
 }
 
@@ -1067,7 +1056,6 @@ footer {
   line-height: 1.3;
 }
 
-
 .article1_photo_box {
   width: 45%;
   height: 680px;
@@ -1076,7 +1064,6 @@ footer {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 /* SECTION REPEAT WHY CHOOSE US */
@@ -1109,7 +1096,6 @@ footer {
   color: white;
   font-size: 2rem;
   font-family: "Orbitron";
-
 }
 
 .span_workout_sessions {
@@ -1118,9 +1104,9 @@ footer {
 
 /* SECTION 4 */
 .section4_title {
-  width: 50%;
+  width: 55%;
   padding-inline: 30px;
-  margin:0 auto 60px;
+  margin: 0 auto 60px;
 }
 
 .section4_heading {
@@ -1130,7 +1116,6 @@ footer {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 .section4_paragraph {
@@ -1141,7 +1126,6 @@ footer {
   letter-spacing: 1px;
   line-height: 1.3;
   text-align: center;
-  
 }
 
 .section4_about {
@@ -1151,9 +1135,7 @@ footer {
   justify-content: space-between;
   /* border: 2px solid red; */
   position: relative;
-
 }
-
 
 .cards_parent_trainers {
   width: 32%;
@@ -1167,7 +1149,6 @@ footer {
   display: flex;
   flex-direction: column;
   /* border: 2px solid  red; */
-  
 }
 
 .trainer2_photo {
@@ -1178,11 +1159,9 @@ footer {
   background-image: url("../photos/Steven-Tinoco.jpg");
 }
 
-
-
 .cards_overlay {
   width: 100%;
-  background-color: #01141DDE;
+  background-color: #01141dde;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1215,7 +1194,7 @@ footer {
   font-size: 1.2rem;
   font-family: "Orbitron";
   letter-spacing: 1px;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 .trainer_position {
@@ -1232,12 +1211,11 @@ footer {
   background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
   display: flex;
   padding-inline: 1%;
-  
 }
 
 .section5_unlock_photo {
   /* border: 2px solid red; */
-  width:52%;
+  width: 52%;
   /* border: 2px solid red; */
   background-color: inherit;
   height: 450px;
@@ -1245,8 +1223,6 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- 
-  
 }
 
 .unlock_your_potential {
@@ -1263,7 +1239,6 @@ footer {
   line-height: 1.5;
   margin-bottom: 20px;
 }
-
 
 .span_science_based {
   color: #2edaf1;
@@ -1300,11 +1275,234 @@ footer {
   overflow: hidden;
 }
 
+/* CONTACT PAGE */
+.section1_contact {
+  margin: 0 auto 150px;
+  padding: 100px 2%;
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
+  display: flex;
+}
+
+.section1_contact_photo {
+  width: 31%;
+  height: 450px;
+  background-image: url("../photos/sciencebo3\ Background\ Removed.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* border: 2px solid red; */
+}
+
+.stay_connected_with {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+  margin-top: 200px;
+}
+
+.span_connected {
+  color: #2edaf1;
+}
+
+/* SECTION 2 CONTACT */
+
+.section2_contact {
+  margin: 0 auto 200px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 90%;
+}
+
+.get_in_touch_box {
+  width: 45%;
+  /* border: 2px solid red; */
+}
+
+.get_in_touch {
+  color: white;
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.office_location_div {
+  padding: 5% 4% 0;
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px solid #ffffff29;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+
+.office_location_div:hover {
+  background-color: hsla(188, 87%, 15%);
+  border-color: #2edaf1;
+}
+
+.location_icon {
+  background-color: #2edaf1;
+  border-radius: 50%;
+  padding: 15px 20px;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.office_location_text {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+  margin: 5px 0 15px;
+}
+
+.office_adress {
+  color: #ffffff70;
+  font-family: "Inter";
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.call_and_email {
+  padding: 2%;
+  display: flex;
+  border-bottom: 1px solid #2edaf1;
+  /* border: 2px solid red; */
+}
+
+.phone {
+  width: 50%;
+  /* border: 2px solid green; */
+  display: flex;
+  gap: 10px;
+  padding: 2% 1% 0;
+}
+
+.phone_icon {
+  background-color: #2edaf1;
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.email_icon {
+  background-color: #2edaf1;
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.social_media_contact {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.social_media_title {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Orbitron";
+  letter-spacing: 1px;
+}
+
+form {
+  width: 45%;
+  padding: 5% 4% 0;
+  background-color: transparent;
+  background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
+  border-width: 1px 1px 1px 1px;
+  border: 0.5px solid #ffffff29;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+form:hover {
+  border-color: #2edaf1;
+}
+
+input {
+  background-color: inherit;
+  padding: 20px;
+  border-width: 1px 1px 1px 1px;
+  border: 1px solid #ffffff29;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-family: "Inter";
+  font-family: 300;
+  
+
+ 
+}
 
 
 
+input:hover {
+  background-color: hsla(188, 87%, 15%);
+  border-color: #2edaf1;
+  
+}
 
+::placeholder {
+  font-family: "Inter";
+  font-weight: 200;
+  
+}
 
+textarea {
+  padding: 5%;
+  background-color: inherit;
+  border-width: 1px 1px 1px 1px;
+  border: 1px solid #ffffff29;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-family: "Inter";
+  font-family: 300;
+}
 
+textarea:hover {
+  border-color: #2edaf1;
+  background-color: hsla(188, 87%, 15%);
+}
 
+.button_send_message {
+  background-color: hsla(188, 87%, 15%, 0.75);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  color: white;
+  font-family: "Orbitron";
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 15px 40px;
+  border: 1.5px solid #2edaf1;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
 
+.button_send_message:hover {
+  background-color: #2edaf1;
+  color: black;
+}
+
+iframe {
+  margin: 0 auto 150px;
+  width: 90%;
+  display: block;
+  height: 500px;
+  border-radius: 20px;
+}
