@@ -596,6 +596,23 @@ ul li a:hover {
   font-weight: 300;
 }
 
+.section6_home {
+  margin: 0 auto 150px;
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 80%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6_photo {
+  width: 40%;
+  height: 450px;
+  background-image: url("../photos/ai-cyborg-robot-running-smartphone-screen-hand-physical-condition-data-3d-illustration_76964-5133\ Background\ Removed.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
 /* FOOTER */
 
 footer {
