@@ -94,6 +94,19 @@ ul li a:hover {
   color: #2edaf1;
 }
 
+.burgmenu, 
+.xmark{
+  font-size: 1.3rem;
+  color: white;
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 100%);
+  box-shadow: 0px 0px 24px 0px
+    rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+  padding: 12px;
+  border-radius: 5px;
+  display: none;
+  
+}
+
 .section1_heading_box {
   padding: 20px 3%;
   border-radius: 10px;
@@ -108,6 +121,10 @@ ul li a:hover {
   font-family: "Orbitron";
   letter-spacing: 1px;
   margin-bottom: 1em;
+}
+
+.span_goal {
+  color: #2edaf1;
 }
 
 .section1_paragraph1 {
@@ -147,6 +164,7 @@ ul li a:hover {
 }
 
 .watch_video {
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   gap: 15px;
@@ -309,7 +327,7 @@ ul li a:hover {
 .explore_your_paragraph {
   color: #ffffff70;
   font-family: "inter";
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
   line-height: 1.2;
   margin-bottom: 2em;
@@ -356,6 +374,7 @@ ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   transition-duration: 0.5s;
+
 }
 
 .cards_1:hover {
@@ -385,9 +404,11 @@ ul li a:hover {
 }
 .cards_paragraph {
   color: white;
-  font-family: "Electrolize";
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 200;
   letter-spacing: 1px;
-  line-height: 1.2;
+  line-height: 1.3;
   margin-bottom: 15px;
 }
 
@@ -609,7 +630,7 @@ ul li a:hover {
 
 .section6_photo {
   width: 40%;
-  height: 450px;
+  min-height: 450px;
   background-image: url("../photos/ai-cyborg-robot-running-smartphone-screen-hand-physical-condition-data-3d-illustration_76964-5133\ Background\ Removed.png");
   background-size: cover;
   background-position: center;
@@ -744,7 +765,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 20px;
+  border-radius: 15px;
   transition: 0.5s;
 }
 
@@ -755,6 +776,7 @@ footer {
 
 .cover11 {
   background-image: url("../photos/cards15.jpeg");
+  
 }
 
 .cover12 {
@@ -1130,6 +1152,7 @@ footer {
   width: 55%;
   padding-inline: 30px;
   margin: 0 auto 60px;
+  /* border: 2px solid red; */
 }
 
 .section4_heading {
@@ -1242,7 +1265,7 @@ footer {
   width: 52%;
   /* border: 2px solid red; */
   background-color: inherit;
-  height: 450px;
+  min-height: 450px;
   background-image: url("../photos/online-personal-trainer-showing-demonstrating-fitness-exercise-KFDFNB\ Background\ Removed.png");
   background-size: cover;
   background-position: center;

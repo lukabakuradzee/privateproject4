@@ -1,0 +1,331 @@
+@media (max-width: 1024px) {
+  .login_box {
+    display: none;
+  }
+
+  .burgmenu {
+    display: block;
+  }
+
+  .burgmenu:hover {
+    color: ;
+  }
+
+  .menu {
+    width: 30%;
+    background-color: hsl(204, 100%, 4%);
+    background-image: radial-gradient(#00e1ff24 0%, #01141d 100%);
+    box-shadow: 0px 0px 24px 0px
+      rgba(45.99999999999999, 217.9999999999999, 255, 0.49) inset;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    justify-content: space-around;
+    position: fixed;
+    top: 96px;
+    left: -100%;
+    height: 200px;
+  }
+
+  .show {
+    left: 0;
+  }
+
+  .section1 {
+    padding: 200px 5%;
+    flex-direction: column-reverse;
+    row-gap: 70px;
+  }
+
+  .section1_heading_box {
+    width: 60%;
+  }
+
+  .section1_watch {
+    width: 60%;
+  }
+
+  .watch_video {
+    place-content: center;
+  }
+
+  /* SECTION 2 WHY CHOOSE US */
+  .section2_why_choose_us {
+    margin: 120px auto;
+    width: 95%;
+  }
+
+  .why_choose_article {
+    flex-wrap: wrap;
+  }
+
+  .article_card1 {
+    width: 48%;
+    margin-bottom: 2em;
+    padding: 2em;
+  }
+
+  .trusted_by_heading {
+    display: none;
+  }
+
+  /* SECTION 3 EXPLORE NEW */
+
+  .section3_explore_new {
+    margin: 120px auto;
+    padding-inline: 0;
+    flex-direction: column;
+    row-gap: 4em;
+  }
+
+  .explore_box {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    align-items: center;
+    width: 70%;
+  }
+
+  .explore_your_paragraph {
+    text-align: center;
+  }
+
+  .button_allservices {
+    width: 40%;
+  }
+
+  .section3_cards {
+    width: 95%;
+    margin-inline: auto;
+    gap: 1.5em;
+  }
+
+  .cards_1 {
+    width: 48%;
+  }
+
+  /* SECTION 4 OUR TEAM */
+
+  .our_team_paragraph {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .our_team_box {
+    flex-direction: column;
+  }
+
+  .team1_cover {
+    width: 100%;
+  }
+
+  .our_team_about {
+    width: 100%;
+  }
+
+  /* SECTION 5 STATISTIC INFO */
+
+  .section5_statistic_info {
+    width: 70%;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+
+  .statistic_box1 {
+    width: 40%;
+  }
+
+  .fourth {
+    border-right: 1px solid #ffffff29;
+  }
+
+  footer {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  /* MEEMBERSHIP PAGE */
+  .section1_membership {
+    padding: 200px 3%;
+  }
+
+  /* SECTION 2  */
+  .section2_membership {
+    margin: 100px auto;
+    padding-inline: 0;
+    width: 95%;
+  }
+  .membership_cards1 {
+    width: 100%;
+  }
+
+  .cover11,
+  .cover12,
+  .cover14,
+  .cover15 {
+    width: 48%;
+  }
+
+  /* SECTION 3 STATISTIC */
+
+  .section3_statistic_info {
+    width: 95%;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 10%;
+  }
+
+  /* SECTION 4 TESTIMONIALS */
+  .section4_testimonials_membership {
+    margin-bottom: 150px;
+    width: 95%;
+  }
+
+  .testimonials_heading {
+    line-height: 1.2;
+  }
+
+  .section4_testimonials_membership {
+    flex-wrap: wrap;
+  }
+
+  .tesimonials_box1 {
+    width: 49%;
+  }
+
+  .testibox3 {
+    display: none;
+  }
+
+  /* SECTION 5 HEADING */
+  .section5_title {
+    width: 65%;
+  }
+
+  .find_your_question {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* QUESTIONS */
+  .section5_questions {
+    width: 95%;
+    flex-direction: column;
+  }
+
+  .question_rows_div1 {
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* ABOUT PAGE */
+
+  .section1_about {
+    padding: 150px 3% 100px;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+
+  .section1_about_photo {
+    width: 100%;
+  }
+
+  .transform_your_body {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .fitness_experts_paragraph {
+    text-align: center;
+  }
+
+  .transform_box {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+  }
+
+  /* VISION SECTION */
+  .article1_story {
+    margin: 100px auto;
+    width: 95%;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .article_column {
+    width: 100%;
+  }
+
+  .article1_photo_box {
+    width: 100%;
+    height: 600px;
+  }
+
+  /* WHY CHOOSE US */
+  .whychoose_second {
+    width: 95%;
+  }
+
+  /* SECTION 3 ABOUT WATCH */
+  .section3_about_watch {
+    height: 550px;
+  }
+
+  .watch_intro {
+    padding-top: 230px;
+  }
+
+  /* SECTION 4 TITLE */
+  .section4_title {
+    width: 80%;
+  }
+
+  .section4_about {
+    flex-direction: column;
+    place-items: center;
+    row-gap: 150px;
+  }
+
+  .cards_parent_trainers {
+    width: 60%;
+  }
+
+  /* SECTION 5 UNLOCK */
+
+  .section5_unlock_photo {
+    width: 60%;
+  }
+
+  .unlock_your_potential {
+    margin-top: 30px;
+  }
+
+  /* CONTACT PAGE */
+  .section1_contact {
+    margin-bottom: 100px;
+    padding: 100px 2% 30px;
+  }
+
+  /* SECTION 2  */
+  .section2_contact {
+    margin-bottom: 100px;
+    width: 95%;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .get_in_touch_box {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  iframe {
+    width: 95%;
+  }
+}
