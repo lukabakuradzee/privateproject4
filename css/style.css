@@ -271,9 +271,9 @@ ul li a:hover {
 
 .personal_plan {
   color: white;
-  font-size: 1.4rem;
-  font-family: "electrolize";
-  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-family: "Orbitron";
+  letter-spacing: 1.2px;
   margin-bottom: 1em;
 }
 
@@ -569,7 +569,7 @@ ul li a:hover {
   overflow: hidden;
 }
 
-/* SECTION 5 STATISTIC*/
+/* SECTION 5 STATISTIC */
 .section5_statistic_info {
   margin: 200px auto;
   width: 90%;
@@ -651,6 +651,7 @@ footer {
 .footer_div1 {
   display: flex;
   gap: 30px;
+  /* border: 2px solid red; */
 }
 
 .footer_div1 a {
@@ -1077,16 +1078,14 @@ footer {
   cursor: pointer;
 }
 
-.class_icon {
-  width: 12%;
-}
+
 
 .aim_icon {
   font-size: 2rem;
   background-color: #2edaf1;
   padding: 20px;
   border-radius: 50%;
-  display: block;
+
 }
 
 .our_mission_heading {
@@ -1266,7 +1265,6 @@ footer {
 }
 
 .section5_unlock_photo {
-  /* border: 2px solid red; */
   width: 52%;
   /* border: 2px solid red; */
   background-color: inherit;
