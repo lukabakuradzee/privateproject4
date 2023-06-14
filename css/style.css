@@ -315,6 +315,7 @@ ul li a:hover {
 .explore_your_heading {
   color: white;
   font-size: 2rem;
+  font-weight: bold;
   font-family: "Orbitron";
   line-height: 1.2;
   margin-bottom: 1em;
@@ -1076,6 +1077,10 @@ footer {
   cursor: pointer;
 }
 
+.class_icon {
+  width: 12%;
+}
+
 .aim_icon {
   font-size: 2rem;
   background-color: #2edaf1;
@@ -1270,6 +1275,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /* border: 2px solid red; */
 }
 
 .unlock_your_potential {
@@ -1321,6 +1327,8 @@ footer {
   transform: translateY(-10%);
   overflow: hidden;
 }
+
+
 
 /* CONTACT PAGE */
 .section1_contact {

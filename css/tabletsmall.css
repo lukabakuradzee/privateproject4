@@ -1,0 +1,342 @@
+@media (max-width: 640px) {
+   .menu {
+    width: 40%;
+   }
+
+   .section1 {
+      padding: 200px 5% 120px;
+   }
+
+   .section1_watch {
+    display: none;
+   }
+
+   .section1_heading_box {
+    width: 95%;
+   }
+
+   .section1_paragraph1{
+    margin-bottom: 3em;
+   }
+
+   /* SECTION 2 WHY CHOOSE  US */
+
+   .section2_why_choose_us {
+    margin: 80px auto;
+   }
+   .section2_heading {
+    font-size: 2rem;
+   }
+
+   .why_choose_article {
+    flex-direction: column;
+   }
+
+  .article_card1 {
+    width: 100%;
+  }
+    /* SECTION 3 EXPLORE NEW */
+    .section3_explore_new {
+      margin: 80px auto;
+
+    }
+
+    .explore_box {
+      width: 90%;
+    }
+
+    .explore_your_heading {
+      font-size: 1.8rem;
+    }
+
+    .explore_your_paragraph {
+      font-size: 0.9rem;
+    }
+
+    .button_allservices {
+      font-size: 1rem;
+      width: 35%;
+    }
+
+    .section3_cards {
+      flex-direction: column;
+    }
+    
+  .cards_1 {
+    width: 100%;
+  }
+
+  .cards_1:hover  {
+    transform: scale(1);
+  }
+
+  .cards_heading {
+    margin: 230px  auto 5px;
+  }
+
+  /* SECTIOn 4 OUR TEAM */
+  .section4_our_team {
+    padding: 3%;
+  }
+  .our_team_heading {
+    font-size: 2rem;
+  }
+
+  .our_team_paragraph {
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+
+  .team_about {
+    font-size: 1.7rem;
+  }
+
+  .team_about_paragraph {
+   font-size: 0.9rem;
+  }
+
+  .button_view_details {
+    font-size: 1rem;
+  }
+
+  .button_view_project {
+    font-size: 1rem;
+    padding: 10px 28px;
+    margin-bottom: 1em;
+  }
+  
+  /* SECTION 5 STATISTIC INFO */
+  .section5_statistic_info {
+    margin: 100px auto;
+    flex-direction: column;
+  }
+
+
+.statistic_box1 {
+  margin-inline: auto;
+  width: 60%;
+  border-right: none;
+}
+
+
+/* MEMBERSHIP PAGE */
+.section1_membership{
+  padding: 150px 0 80px;
+  
+}
+
+.section1_membership_heading {
+  font-size: 1.8rem;
+}
+
+.membership_paragraph {
+  width: 70%;
+}
+
+.section2_membership {
+  flex-direction: column;
+}
+
+.cover11,
+.cover12,
+.cover14,
+.cover15 {
+  width: 100%;
+} 
+
+.membership_cards1:hover {
+  transform: scale(1);
+}
+
+.membership_heading {
+  margin-top: 300px;
+}
+
+/* STATISTIC INFO */
+.section3_statistic_info {
+  margin: 0 auto 100px;
+}
+
+/* SECTION 4 TESTIMONIALS */
+.testimonials_heading {
+  font-size: 1.7rem;
+}
+
+.section4_testimonials_membership {
+  margin: 0 auto 120px;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.tesimonials_box1 {
+  width: 100%;
+}
+
+/* SECTION 5 */
+.section5_title {
+  width: 80%;
+  margin: 0 auto 60px;
+  
+}
+
+.section5_questions {
+ margin: 0 auto 120px;
+}
+
+
+.find_your_question {
+  font-size: 1.8rem;
+}
+
+.question_rows_div1 {
+  padding: 4%;
+}
+
+.question_1 {
+  font-size: 0.9rem;
+}
+
+
+/* ABOUT PAGE */
+.section1_about {
+  padding-bottom: 60px;
+}
+.section1_about_photo {
+  height: 450px;
+}
+
+.transform_your_body {
+  font-size: 1.8rem;
+
+}
+
+.fitness_experts_paragraph {
+  font-size: 0.9rem;
+}
+
+.button_ourservices {
+  font-size: 1rem;
+  padding: 12px 30px;
+ 
+}
+
+/*  ARTICLE STORY */
+.article1_story {
+  margin: 60px auto;
+}
+
+.article1_heading {
+  font-size: 1.8rem;
+}
+
+
+.our_mission_div  {
+  flex-direction: column;
+}
+
+.aim_icon  {
+  font-size: 1.4rem;
+  
+  
+}
+
+.our_mission_heading  {
+  font-size: 1.1rem;
+}
+
+.our_mission_paragraph  {
+  font-size: 0.9rem;
+}
+
+.article1_photo_box {
+  height: 400px;
+}
+
+
+/* SECTION 3 ABOUT WATCH */
+.section3_about_watch {
+  margin-bottom: 80px;
+  height: 350px;
+
+}
+.watch_intro {
+  padding-top: 150px;
+}
+
+.watch_workouts_sessions {
+  font-size: 1.6rem;
+}
+
+/* SECTION 4 TITLE */
+.section4_title {
+  width: 90%;
+  margin-top: ;
+}
+
+.section4_heading {
+  font-size: 1.8rem;
+}
+
+.cards_parent_trainers {
+  width: 70%;
+}
+
+
+/* SECTION 5 UNLOCK YOUR POTENTIAL */
+/* .section5_unlock_potential {
+  flex-direction: column;
+} */
+
+.unlock_your_potential_title  {
+  font-size: 1.5rem;
+}
+
+
+
+.unlock_potential_paragarph {
+  font-size: 0.9rem;
+}
+
+.button_contact_us {
+  font-size: 1rem;
+}
+
+
+/* CONTACT PAGE */
+
+.section1_contact{
+  padding-inline: 0%;
+  margin-bottom: 80px;
+}
+
+.section1_contact_photo {
+  width: 25%;
+  height: 300px;
+}
+.stay_connected_with {
+  font-size: 1.8rem;
+  margin-top: 120px;
+}
+
+/* SECTION 2 CONTACT */
+.get_in_touch {
+  font-size: 1.8rem;
+}
+
+.call_and_email {
+  flex-direction: column;
+}
+
+iframe {
+  height: 380px;
+}
+
+
+
+
+
+
+
+
+
+}
