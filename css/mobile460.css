@@ -3,6 +3,10 @@
   .section1_heading_box {
     width: 100%;
   }
+
+  .menu {
+    width: 50%;
+  }
  
   .section1_heading1 {
     font-size: 1.6rem;
