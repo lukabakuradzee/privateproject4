@@ -1,0 +1,145 @@
+@media (max-width: 375px) {
+ /* SECTION1  */
+ .section1 {
+  padding: 120px 5% 50px;
+  min-height: 400px;
+ }
+.logo_text1 {
+  font-size: 1.5rem;
+}
+
+.section1_heading1 {
+  font-size: 1.3rem;
+}
+
+
+/* SECTION 3 EXPLORE NEW */
+.section3_explore_new {
+  margin: 35px auto;
+}
+.explore_your_heading {
+  font-size: 1.3rem;
+}
+
+.button_allservices {
+  font-size: 0.9rem;
+}
+
+
+/* STATISTIC INFO */
+
+.statistic_box1 {
+  width: 80%;
+}
+
+/* SECTION 6 HOME */
+.section6_home {
+  row-gap: 0px;
+}
+
+.unlock_potential_home {
+  width: 95%;
+  margin-inline: auto;
+}
+
+.unlock_your_potential_title {
+  text-align: center;
+}
+
+.unlock_potential_paragarph {
+  text-align: center;
+  padding-inline: 5%;
+  opacity: 0.8;
+}
+
+.button_contact_us {
+  font-size: 0.9rem;
+}
+
+
+
+/* MEMBERSHIP PAGE */
+
+.section1_membership_heading {
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+.membership_paragraph {
+  width: 90%;
+  font-size: .875rem;
+}
+
+.button_activate_membership:hover {
+  transform: scale(1);
+}
+
+/* SECTION 5 QUESTION */
+.find_your_question {
+  line-height: 1.4;
+}
+
+.button_ourservices {
+  width: 70%;
+}
+
+
+
+.question_1 {
+  line-height: 1.4;
+}
+
+/* ABOUT PAGE */
+
+.article1_heading {
+  font-size: 1.5rem;
+}
+
+.article1_photo_box {
+  height: 300px;
+}
+
+/* SECTION 3 ABOUT */
+
+.section1_about_photo {
+  min-height: 250px;
+}
+
+.watch_workouts_sessions {
+  font-size: 1.2rem;
+  
+}
+
+/* SECTION 4 TITLE ABOUT */
+.section4_heading {
+  font-size: 1.5rem;
+}
+
+.cards_parent_trainers {
+  width: 85%;
+}
+
+
+
+/* CONTACT PAGE */
+.section1_contact {
+  justify-content: space-between;
+}
+.section1_contact_photo {
+  width: 30%;
+}
+.stay_connected_with {
+  width: 65%;
+  font-size: 1.1rem;
+}
+
+.get_in_touch {
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+}

@@ -6,6 +6,7 @@
 
   .menu {
     width: 43%;
+    
   }
  
   .section1_heading1 {
@@ -20,6 +21,7 @@
   /* SECTION 2 WHY CHOOSE US */
   .section2_why_choose_us {
     margin: 50px auto;
+    line-height: 1.3;
   }
 
   .section2_heading {

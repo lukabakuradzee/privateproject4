@@ -1221,9 +1221,11 @@ footer {
   transition: 1s ease;
 }
 
-.cards_parent_trainers:hover .cards_overlay {
+.cards_parent_trainers:hover 
+.cards_overlay {
   height: 100%;
 }
+
 
 .soc_networks {
   display: flex;
