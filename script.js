@@ -14,3 +14,22 @@ xmark.addEventListener("click", () => {
   burgmenu.style.display = "block";
   xmark.style.display = "none";
   });
+
+
+  const header = document.querySelector('.header');
+  let lastScrollPos = 0;
+
+window.addEventListener('scroll', () => {
+  const currentScrollPos = window.pageYOffset;
+
+  if (currentScrollPos > lastScrollPos) {
+    // Scrolling down, hide the header
+    header.style.top = '-100px';
+  } 
+  else {
+    // Scrolling up, show the header
+    header.style.top = '0';
+  }
+
+  lastScrollPos = currentScrollPos;
+});
