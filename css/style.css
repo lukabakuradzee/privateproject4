@@ -1458,6 +1458,7 @@ footer {
   left: 0;
   right: 0;
   overflow: hidden;
+  border-radius: 20px;
   -webkit-transition: 1s ease;
   -o-transition: 1s ease;
   transition: 1s ease;
