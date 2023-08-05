@@ -195,11 +195,10 @@ ul li a:hover {
 .button_read_more:hover {
   background-color: #2edaf1;
   color: black;
-  /* transform: translateY(-10%); */
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  overflow: hidden;
+  -webkit-transform: translateY(-10%);
+      -ms-transform: translateY(-10%);
+          transform: translateY(-10%);
+  
 }
 
 .section1_watch {
@@ -423,10 +422,9 @@ ul li a:hover {
 .button_allservices:hover {
   background-color: #2edaf1;
   color: black;
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-  overflow: hidden;
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+      transform: translateY(-10%);
 }
 
 .section3_cards {
