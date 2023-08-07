@@ -20,11 +20,11 @@ body {
 .section1 {
   margin: 0 auto;
   padding: 300px 5%;
-  min-height: 600px;
+  min-height: 500px;
   background-image: url("../photos/robot-background.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,7 +37,7 @@ body {
 }
 
 header {
-  padding-inline: 5%;
+  padding-inline: 5% 25%;
   min-height: 96px;
   border-bottom: .5px solid #2cc3d7;
   background-color: hsl(204, 100%, 4%, 0.75);
@@ -95,7 +95,7 @@ ul li a {
 ul li a:hover {
   color: #2edaf1;
 }
-
+/* 
 .login_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -117,16 +117,16 @@ ul li a:hover {
   -webkit-transition-duration: 0.5s;
        -o-transition-duration: 0.5s;
           transition-duration: 0.5s;
-  cursor: pointer;
-}
+  cursor: pointer; */
 
-.login_text:hover {
+
+/* .login_text:hover {
   color: #2edaf1;
 }
 
 .login_icon:hover {
   color: #2edaf1;
-}
+} */
 
 .burgmenu, 
 .xmark{
@@ -259,7 +259,7 @@ ul li a:hover {
   background-color: hsla(188, 87%, 15%, 0.75);
   border-radius: 10px;
   padding: 2em 2em;
-  color: #ffffff60;
+  color: white;
   font-family: "Inter";
   line-height: 1.2;
   letter-spacing: 0.6px;

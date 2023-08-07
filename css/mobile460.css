@@ -5,7 +5,7 @@
   }
 
   .menu {
-    width: 43%;
+    width: 50vw;
     
   }
  
@@ -113,11 +113,12 @@
 }
 
 .section6_photo {
-  width: 85%;
+  width: 100%;
 }
 
 .unlock_potential_home {
-  width: 90%;
+  padding-inline: 3%;
+  width: 100%;
 }
 
 
@@ -242,7 +243,7 @@
   }
   
   .unlock_your_potential {
-    width: 95%;
+    width: 100%;
     margin-inline: auto;
    
   }
