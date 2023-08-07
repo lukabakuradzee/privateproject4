@@ -263,8 +263,16 @@
 
 
   /* CONTACT PAGE */
+  .section1_contact {
+    padding: 20% 0 0;
+  }
+  .section1_contact_photo {
+    width: 100%;
+  }
   .stay_connected_with {
     font-size: 1.5rem;
+    width: 70%;
+    line-height: 1.4;
   }
 
  .get_in_touch {
