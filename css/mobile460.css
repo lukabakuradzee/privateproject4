@@ -1,5 +1,8 @@
 @media  (max-width: 460px) {
   /* SECTION 1 */
+  .section1 {
+    padding-top: 20%;
+  }
   .section1_heading_box {
     width: 100%;
   }
