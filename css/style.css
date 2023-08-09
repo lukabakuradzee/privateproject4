@@ -245,16 +245,17 @@ ul li a:hover {
   padding: 18px 25px;
   color: white;
   font-size: 1.5rem;
-  animation: radio-signal 3s linear infinite;
-  -webkit-transition-duration: 0.5s;
-       -o-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition: all .8s;
+  animation: radio-signal 2.5s linear infinite;
+  -webkit-transition-duration: 2.5s;
+       -o-transition-duration: 2.5s;
+          transition-duration: 2.5s;
           
 }
 
 
 @keyframes radio-signal {
-   0%, 20%, 80%, 100% {
+  0%, 20%, 80%, 100% {
     box-shadow: 0 0 0 0 rgba(44, 195, 215, 0.6);
   }
   25% {
@@ -342,7 +343,7 @@ ul li a:hover {
 .article_card1 {
   margin-bottom: 8em;
   width: 24%;
-  padding: 2em 1em;
+  padding: 2em 3em;
   background-color: inherit;
   background-image: -o-radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
   background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
@@ -383,10 +384,10 @@ ul li a:hover {
 }
 
 .personal_plan_paragraph {
-  color: #ffffff70;
+  color: #748389;
   font-family: "Inter";
-  font-weight: 300;
-  line-height: 1.2;
+  font-weight: 200;
+  line-height: 1.4;
 }
 
 .trusted_by_heading {
