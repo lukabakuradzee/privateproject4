@@ -112,3 +112,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const section4Heading = document.querySelector('.section4_heading');
+
+  const observerOptions = {
+    root: null,
+    rootMargin: '20px', // Positive rootMargin to start animation earlier
+    threshold: 0, // Trigger when even a pixel is visible
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('section4_heading_visible');
+        observer.unobserve(entry.target); // Stop observing after making it visible
+      }
+    });
+  }, observerOptions);
+
+  observer.observe(section4Heading);
+});
+
+
+

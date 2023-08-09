@@ -1403,7 +1403,7 @@ footer {
 
 /* SECTION REPEAT WHY CHOOSE US */
 .why_choose_heading2 {
-  margin: 100px auto 150px;
+  margin: 100px auto 2em;
 }
 .whychoose_second {
   margin: 0 auto;
@@ -1456,7 +1456,17 @@ footer {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 20px;
+  transform: translateY(100%);
+  position: relative;
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
 }
+
+.section4_heading_visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 
 .section4_paragraph {
   color: #ffffff70;
