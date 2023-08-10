@@ -91,6 +91,8 @@ header {
 
 ul li a {
   color: white;
+  font-size: 0.9rem;
+  /* font-weight: bold; */
   font-family: "Orbitron";
   letter-spacing: 1px;
   -webkit-transition-duration: 0.5s;
@@ -938,12 +940,12 @@ footer {
   padding: 15% 5% 0;
   min-height: 500px;
   background-color: -o-radial-gradient(#00e1ff24 0%, #01141d 100%);
-  /* background-image: radial-gradient(#00e1ff24 0%, #01141d 100%); */
-  background-image: url("../photos/ai_image4.jpeg");
+  background-image: radial-gradient(#00e1ff24 0%, #01141d 100%);
+  /* background-image: url("../photos/ai_image4.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  opacity: 0.9; */
 }
 
 .section1_membership_heading {
