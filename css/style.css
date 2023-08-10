@@ -53,7 +53,7 @@ header {
   padding-inline: 5% 25%;
   min-height: 96px;
   border-bottom: 0.5px solid #2cc3d7;
-  background-color: hsl(204, 100%, 4%, 0.75);
+  background-color: inherit;
   max-width: inhe3it;
   width: 100%;
   display: -webkit-box;
@@ -1595,7 +1595,7 @@ footer {
 
 .unlock_your_potential {
   width: 45%;
-  margin-top: 100px;
+  margin-top: 5em;
 }
 
 .unlock_your_potential_title {
@@ -1632,6 +1632,7 @@ footer {
   font-family: "Orbitron";
   letter-spacing: 1px;
   padding: 15px 40px;
+  margin-bottom: 4em;
   border: 1.5px solid #2edaf1;
   border-radius: 30px;
   cursor: pointer;

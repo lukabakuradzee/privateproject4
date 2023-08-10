@@ -23,21 +23,36 @@ xmark.addEventListener("click", () => {
 
   const header = document.querySelector('.header');
   let lastScrollPos = 0;
-
-window.addEventListener('scroll', () => {
-  const currentScrollPos = window.pageYOffset;
-
-  if (currentScrollPos > lastScrollPos) {
-    // Scrolling down, hide the header
-    header.style.top = '-100px';
-  } 
-  else {
-    // Scrolling up, show the header
-    header.style.top = '0';
-  }
-
-  lastScrollPos = currentScrollPos;
-});
+  
+  window.addEventListener('scroll', () => {
+    const currentScrollPos = window.pageYOffset;
+  
+    if (currentScrollPos > lastScrollPos) {
+      // Scrolling down, hide the header
+      header.style.top = '-100px';
+      header.style.backgroundColor = 'inherit';
+    } else {
+      // Scrolling up
+      if (currentScrollPos === 0) {
+        // At the top of the page, show the header with the inherited background color
+        header.style.backgroundColor = 'inherit';
+      } else if (currentScrollPos <= 100) {
+        // Scroll up slightly, transition the background color
+        const alpha = (currentScrollPos / 100) * 0.9; // Gradually increase alpha value from 0 to 0.9
+      header.style.backgroundColor = `rgba(0, 12, 20, ${alpha})`;
+      } else {
+        // Scrolling up further, maintain the specified background color
+        header.style.backgroundColor = 'rgba(0, 12, 20, 0.9)';
+      }
+  
+      header.style.top = '0';
+    }
+  
+    lastScrollPos = currentScrollPos;
+  });
+  
+  
+  
 
 
 // Why Choose article 
