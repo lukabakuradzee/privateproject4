@@ -313,16 +313,14 @@ ul li a:hover {
   margin-bottom: 2em;
   transform: translateY(100%);
   position: relative;
-    opacity: 0;
-    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .section2_heading_visible {
   transform: translateY(0);
   opacity: 1;
 }
-
-
 
 .span_xfitness_2 {
   color: #2edaf1;
@@ -757,8 +755,6 @@ ul li a:hover {
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out; */
   /* border: 2px solid red; */
 }
-
-
 
 .statistic_box1 {
   width: 22%;
@@ -1217,9 +1213,20 @@ footer {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2em;
+  cursor: pointer;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+}
+
+.content-full {
+  font-family: "Inter";
+  color: #748389;
+  font-weight: 200;
+  line-height: 1.4;
+  display: none;
 }
 
 .question_rows_div1:hover {
@@ -1460,15 +1467,14 @@ footer {
   margin-bottom: 20px;
   transform: translateY(100%);
   position: relative;
-    opacity: 0;
-    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+  transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .section4_heading_visible {
   transform: translateY(0);
   opacity: 1;
 }
-
 
 .section4_paragraph {
   color: #ffffff70;

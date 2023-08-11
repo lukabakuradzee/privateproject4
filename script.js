@@ -1,4 +1,7 @@
+
 // BurgerMenu
+
+
 
 let mobileMenu = document.querySelector(".menu");
 let burgmenu = document.querySelector(".burgmenu");
@@ -40,9 +43,13 @@ xmark.addEventListener("click", () => {
         // Scroll up slightly, transition the background color
         const alpha = (currentScrollPos / 100) * 0.9; // Gradually increase alpha value from 0 to 0.9
       header.style.backgroundColor = `rgba(0, 12, 20, ${alpha})`;
+      header.style.transition = 'background-color 0.5s ease';
+
       } else {
         // Scrolling up further, maintain the specified background color
         header.style.backgroundColor = 'rgba(0, 12, 20, 0.9)';
+        header.style.transition = 'background-color 0.5s ease';
+
       }
   
       header.style.top = '0';
@@ -149,5 +156,8 @@ document.addEventListener("DOMContentLoaded", () => {
   observer.observe(section4Heading);
 });
 
+
+
+// Find your question
 
 
