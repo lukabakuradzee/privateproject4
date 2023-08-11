@@ -297,13 +297,13 @@
     place-items: center;
     row-gap: 150px;
   }
-
+ 
   .cards_parent_trainers {
     width: 60%;
   }
 
   /* SECTION 5 UNLOCK */
-
+  
   .section5_unlock_photo {
     width: 60%;
   }
@@ -311,6 +311,16 @@
   .unlock_your_potential {
     margin-top: 30px;
   }
+
+  /* .section6_home {
+    flex-direction: column;
+     row-gap: 3em;
+   }
+
+   .section6_photo {
+    width: %;
+    min-height: 300px;
+   } */
 
   /* CONTACT PAGE */
   .section1_contact {
