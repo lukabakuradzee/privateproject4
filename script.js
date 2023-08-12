@@ -18,7 +18,11 @@ xmark.addEventListener("click", () => {
   mobileMenu.classList.remove("show");
   burgmenu.style.display = "block";
   xmark.style.display = "none";
+
+  stopPropagation();
   });
+
+
 
 
 
