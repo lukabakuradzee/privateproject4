@@ -64,28 +64,31 @@ xmark.addEventListener("click", () => {
   
   
   
-
-
 // Why Choose article 
 
-const whyChooseArticle = document.querySelector('.why_choose_article');
+document.addEventListener('DOMContentLoaded', () => {
+  // Intersection Observer code
+  const whyChooseArticle = document.querySelector('.why_choose_article');
 
-const observerOptions = {
-  root: null,
-  rootMargin: '100px',
-  threshold: 0.5, // 50% of the element visible
-};
+  const observerOptions = {
+    root: null,
+    rootMargin: '100px',
+    threshold: 0.5,
+  };
 
-const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target); // Stop observing after making it visible
-    }
-  });
-}, observerOptions);
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
 
-observer.observe(whyChooseArticle);
+  observer.observe(whyChooseArticle);
+});
+
+
 
 
 // section2 Why Choose Aritifice?
@@ -96,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const observerOptions = {
     root: null,
     rootMargin: '20px', // Positive rootMargin to start animation earlier
-    threshold: 0, // Trigger when even a pixel is visible
+    threshold: 0 // Trigger when even a pixel is visible
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
@@ -161,7 +164,56 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  const buttonLoadMore = document.getElementById('button_load_more');
+  const cardAfterLoad = document.querySelector('.card_after_load');
 
-// Find your question
+  buttonLoadMore.addEventListener('click', () => {
+    // Change button text to "Loading..."
+    buttonLoadMore.textContent = 'Loading...';
+
+    // Disable the button temporarily
+    buttonLoadMore.disabled = true;
+
+    // Simulate a loading delay for 1 seconds
+    setTimeout(() => {
+      // Hide the button
+      buttonLoadMore.style.display = 'none';
+
+      // Show the card
+      cardAfterLoad.style.display = 'block';
+    }, 1000); // 1 seconds
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const articles = document.querySelectorAll('.question_rows_div1');
+
+  articles.forEach(article => {
+    let contentVisible = false; // Initialize content visibility state
+
+    article.addEventListener('click', () => {
+      const hiddenParagraph = article.querySelector('.hidden-paragraph');
+
+      if (contentVisible) {
+        hiddenParagraph.style.display = 'none'; // Hide the hidden paragraph
+      } else {
+        hiddenParagraph.style.display = 'block'; // Show the hidden paragraph
+      }
+
+      contentVisible = !contentVisible; // Toggle the content visibility state
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
+
 
 

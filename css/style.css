@@ -71,7 +71,7 @@ header {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  z-index: 3;
+  z-index: 10;
   transition: top 0.5s ease;
 }
 
@@ -152,6 +152,11 @@ ul li a:hover {
   padding: 12px;
   border-radius: 5px;
   display: none;
+  cursor: pointer;
+}
+
+.show  {
+  
 }
 
 .section1_heading_box {
@@ -1197,7 +1202,6 @@ footer {
   width: 48%;
   padding: 2% 4%;
   background-color: transparent;
-  background-image: -o-radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
   background-image: radial-gradient(at top right, #00e1ff24 0%, #01141d 50%);
   border-width: 1px 1px 1px 1px;
   border: 0.5px solid #ffffff29;
@@ -1219,7 +1223,7 @@ footer {
   transition: 0.5s;
 }
 
-.content-full {
+.hidden-paragraph {
   font-family: "Inter";
   color: #748389;
   font-weight: 200;
@@ -1257,7 +1261,7 @@ footer {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns */
-  grid-template-rows: auto auto; /* Two rows with auto height */
+  grid-template-rows: auto auto auto; /* Two rows with auto height */
   align-items: stretch;
   gap: 3em; /* Gap between cards */
   margin-bottom: 5em;
@@ -1304,6 +1308,10 @@ footer {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
 }
 
+.card_after_load {
+  display: none;
+}
+
 .button_load_more  {
   padding: 1em 14em ;
   font-size: 1.1rem;
@@ -1333,8 +1341,10 @@ footer {
 .section_our_newsletter h2 {
   color: white;
   font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
   font-size: 2.5rem;
   text-align: center;
+  letter-spacing: 1.5px;
   margin-bottom: 0.8em;
 
 }
@@ -1347,8 +1357,21 @@ footer {
   margin-inline: auto;
   text-align: center;
   line-height: 1.4;
+  margin-bottom: 4em;
   
 }
+
+.input_container  {
+  margin-inline: auto;
+  padding: 2em;
+}
+
+
+
+
+
+
+
 
 /* ABOUT PAGE */
 .section1_about {
