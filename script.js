@@ -123,8 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const observerOptions = {
     root: null,
-    rootMargin: '50px', // Positive rootMargin to start animation earlier
-    threshold: 0.5, // Trigger when even a pixel is visible
+    rootMargin: '50px',
+    threshold: 0.5, 
   };
 
   const observer = new IntersectionObserver((entries, observer) => {
@@ -169,20 +169,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const cardAfterLoad = document.querySelector('.card_after_load');
 
   buttonLoadMore.addEventListener('click', () => {
-    // Change button text to "Loading..."
     buttonLoadMore.textContent = 'Loading...';
-
     // Disable the button temporarily
     buttonLoadMore.disabled = true;
 
     // Simulate a loading delay for 1 seconds
     setTimeout(() => {
-      // Hide the button
       buttonLoadMore.style.display = 'none';
-
-      // Show the card
       cardAfterLoad.style.display = 'block';
-    }, 1000); // 1 seconds
+    }, 1000); 
   });
 });
 
@@ -196,9 +191,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const hiddenParagraph = article.querySelector('.hidden-paragraph');
 
       if (contentVisible) {
-        hiddenParagraph.style.display = 'none'; // Hide the hidden paragraph
+        hiddenParagraph.style.display = 'none'; 
       } else {
-        hiddenParagraph.style.display = 'block'; // Show the hidden paragraph
+        hiddenParagraph.style.display = 'block'; 
       }
 
       contentVisible = !contentVisible; // Toggle the content visibility state

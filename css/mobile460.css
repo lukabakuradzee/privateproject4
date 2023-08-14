@@ -136,12 +136,16 @@
 
 
 /* MEMBERSHIP PAGE */
+.section1_membership {
+  min-height: 300px;
+}
 .section2_membership {
   margin: 60px auto;
 }
 
 .section1_membership_heading {
   font-size: 1.5rem;
+  margin-bottom: 2em;
 }
 
 .membership_cards1 {
@@ -150,6 +154,10 @@
 
 .membership_heading {
   margin-top: 200px;
+}
+
+.cards_info_box2 {
+  top: 25%;
 }
 
 .testimonials_heading {
