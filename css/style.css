@@ -1158,9 +1158,10 @@ footer {
 }
 
 .user_position {
-  color: #ffffff70;
+  color: #748389;
   font-size: 0.8rem;
   font-family: "Inter";
+  font-weight: 200;
   letter-spacing: 1px;
 }
 

@@ -1,8 +1,6 @@
 
 // BurgerMenu
 
-
-
 let mobileMenu = document.querySelector(".menu");
 let burgmenu = document.querySelector(".burgmenu");
 let xmark = document.querySelector(".xmark");

@@ -23,6 +23,7 @@
 
   /* SECTION 2 WHY CHOOSE US */
   .section2_why_choose_us {
+    padding-inline: 3%;
     margin: 50px auto;
     line-height: 1.3;
   }
@@ -57,10 +58,20 @@
   }
 
   .button_allservices {
-    width: 50%;
+    font-size: 0.9rem;
+    width: 40%;
+  }
+
+  .cards_photo_box {
+    height: 350px;
+  }
+
+  .cards_info_box {
+    top: 0%;
   }
 
   .cards_heading {
+    margin-top: 11em;
     font-size: 1.2rem;
   }
 
@@ -82,7 +93,7 @@
   }
 
   .team1_cover {
-    height: 300px;
+    height: 250px;
   }
 
 
@@ -143,6 +154,8 @@
   margin: 60px auto;
 }
 
+
+
 .section1_membership_heading {
   font-size: 1.5rem;
   margin-bottom: 2em;
@@ -151,13 +164,16 @@
 .membership_cards1 {
   min-height: 320px;
 }
+.service_cards1_photo {
+  height: 350px;
+}
 
 .membership_heading {
   margin-top: 200px;
 }
 
 .cards_info_box2 {
-  top: 25%;
+  top: 8%;
 }
 
 .testimonials_heading {
@@ -183,6 +199,12 @@
   padding: 6%;
 }
 
+.question_rows_div1 p {
+  line-height: 1.4;
+}
+
+
+
 /* ABOUT PAGE */
 .section1_about {
   row-gap: 20px;
@@ -193,6 +215,10 @@
 }
 .section1_about_photo {
   height: 350px;
+}
+
+.button_ourservices {
+  width: 50%;
 }
 
 
@@ -270,6 +296,29 @@
     margin-bottom: 20px;
     
   }
+
+
+  /* BLOG PAGE */
+  .article_blog {
+   margin: 5em auto;
+  }
+
+  .card {
+    height: 350px;
+  }
+
+  .grid_card_text {
+    top: 65%;
+  }
+
+  .grid_card_text p {
+    font-size: 0.9rem;
+  }
+
+.button_load_more {
+  font-size: 1rem;
+  padding-inline: 3em;
+}
 
 
 
