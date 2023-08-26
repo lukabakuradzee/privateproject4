@@ -45,9 +45,13 @@
       width: 90%;
     }
 
-    .explore_your_heading {
+    .explore_box > h3 {
       font-size: 1.8rem;
+
     }
+
+    
+
 
     .explore_your_paragraph {
       font-size: 0.9rem;
@@ -78,14 +82,16 @@
   .section4_our_team {
     padding: 3%;
   }
-  .our_team_heading {
+  .section4_our_team > h3 {
     font-size: 2rem;
     line-height: 1.3;
   }
 
-  .our_team_paragraph {
+  .section4_our_team > p {
     font-size: 0.9rem;
     margin-bottom: 40px;
+    line-height: 1.4;
+    width: 80%;
   }
 
   .team1_cover {
@@ -155,7 +161,16 @@
 }
 
 .membership_heading {
-  margin-top: 300px;
+  margin: 13em 0 0.3em;
+}
+
+.grid-container .card {
+  height: 350px;
+
+}
+
+.grid_card_text {
+  top: 72%;
 }
 
 /* STATISTIC INFO */
@@ -233,7 +248,7 @@
   padding-bottom: 60px;
 }
 .section1_about_photo {
-  height: 450px;
+  height: 365px;
 }
 
 .transform_your_body {
@@ -250,6 +265,7 @@
   padding: 12px 30px;
  
 }
+
 
 /*  ARTICLE STORY */
 .article1_story {
@@ -301,16 +317,21 @@
 /* SECTION 4 TITLE */
 .section4_title {
   width: 90%;
+  margin-inline: auto;
 }
 
 .section4_heading {
   font-size: 1.8rem;
 }
 
-.cards_parent_trainers {
-  width: 70%;
+.trainer_info {
+  left: 25%;
 }
 
+/* .cards_parent_trainers {
+  height: 400px;
+  width: 55%;
+} */
 
 /* SECTION 5 UNLOCK YOUR POTENTIAL */
 /* .section5_unlock_potential {

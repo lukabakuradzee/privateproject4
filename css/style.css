@@ -8,6 +8,44 @@ body {
   background-color: #000c14;
 }
 
+:root {
+  --e-global-color-primary: #ffffff;
+  --e-global-color-secondary: #2edaf1;
+  --e-global-color-text: #ffffff70;
+  --e-global-color-accent: #2edaf1;
+  --e-global-color-30d2240: #01141d;
+  --e-global-color-3d3558d: #1f00fc;
+  --e-global-color-905e920: #252525;
+  --e-global-color-b5fe052: #ffcf1e;
+  --e-global-color-51ea774: #00e1ff24;
+  --e-global-color-923339b: #ffffff29;
+  --e-global-color-868144b: #000c14;
+  --e-global-typography-primary-font-family: "Orbitron";
+  --e-global-typography-primary-font-size: 54px;
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-primary-text-transform: capitalize;
+  --e-global-typography-primary-font-style: normal;
+  --e-global-typography-primary-text-decoration: none;
+  --e-global-typography-primary-line-height: 1.3em;
+  --e-global-typography-primary-letter-spacing: 1px;
+  --e-global-typography-secondary-font-family: "Orbitron";
+  --e-global-typography-secondary-font-size: 40px;
+  --e-global-typography-secondary-font-weight: 600;
+  --e-global-typography-secondary-text-transform: capitalize;
+  --e-global-typography-secondary-font-style: normal;
+  --e-global-typography-secondary-text-decoration: none;
+  --e-global-typography-secondary-line-height: 1.3em;
+  --e-global-typography-secondary-letter-spacing: 1px;
+  --e-global-typography-text-font-family: "Inter";
+  --e-global-typography-text-font-size: 16px;
+  --e-global-typography-text-font-weight: 300;
+  --e-global-typography-text-text-transform: none;
+  --e-global-typography-text-font-style: normal;
+  --e-global-typography-text-text-decoration: none;
+}
+
+
+
 .container {
   max-width: 100vw;
   width: 100%;
@@ -43,7 +81,7 @@ body {
   left: 25%;
 }
 
-.robot_photo_background {
+.background_photo_box > img {
   width: 100%;
   height: auto;
 }
@@ -152,11 +190,9 @@ ul li a:hover {
   border-radius: 5px;
   display: none;
   cursor: pointer;
-  
 }
 
 .show {
-
 }
 
 .section1_heading_box {
@@ -167,7 +203,7 @@ ul li a:hover {
   /* position: absolute; */
 }
 
-.section1_heading1 {
+.section1_heading_box > h2 {
   color: white;
   font-size: 3rem;
   font-weight: bold;
@@ -177,7 +213,7 @@ ul li a:hover {
   line-height: 1.4;
 }
 
-.span_goal {
+.section1_heading_box span {
   color: #2edaf1;
 }
 
@@ -278,7 +314,7 @@ ul li a:hover {
   cursor: pointer;
 }
 
-.watch_workouts_text {
+.watch_video > p {
   color: white;
   font-size: 1rem;
   font-family: "Orbitron";
@@ -293,7 +329,7 @@ ul li a:hover {
   color: #2edaf1;
 }
 
-.watch_video_paragraph {
+.section1_watch > p {
   border-radius: 10px;
   color: #748389;
   font-family: "Inter";
@@ -386,7 +422,7 @@ ul li a:hover {
   font-size: 1.5rem;
 }
 
-.personal_plan {
+.article_card1 > h3 {
   color: white;
   font-size: 1.2rem;
   font-family: "Orbitron";
@@ -394,7 +430,7 @@ ul li a:hover {
   margin-bottom: 1em;
 }
 
-.personal_plan_paragraph {
+.article_card1 > p {
   color: #748389;
   font-family: "Inter";
   font-weight: 200;
@@ -418,7 +454,7 @@ ul li a:hover {
   opacity: 1;
 }
 
-.active_members_span {
+.trusted_by_heading span {
   color: #2edaf1;
 }
 
@@ -438,7 +474,7 @@ ul li a:hover {
   width: 40%;
 }
 
-.explore_your_heading {
+.explore_box h3 {
   color: white;
   font-size: 2.5rem;
   font-weight: bold;
@@ -447,11 +483,11 @@ ul li a:hover {
   margin-bottom: 1em;
 }
 
-.span_routine {
+.explore_box span {
   color: #2edaf1;
 }
 
-.explore_your_paragraph {
+.explore_box > p {
   color: #748389;
   font-family: "inter";
   font-weight: 200;
@@ -538,14 +574,13 @@ ul li a:hover {
   transition: 0.8s;
 } */
 
-.cards_photos_ai {
+.cards_photo_box > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
   filter: brightness(80%) contrast(90%);
 }
-
 
 .cards_info_box {
   position: absolute;
@@ -554,7 +589,7 @@ ul li a:hover {
   z-index: 4;
 }
 
-.cards_heading {
+.cards_info_box > h3 {
   color: white;
   font-size: 1.5rem;
   font-family: "Orbitron";
@@ -563,7 +598,8 @@ ul li a:hover {
   line-height: 1.2;
   margin: 200px auto 5px auto;
 }
-.cards_paragraph {
+
+.cards_info_box > p {
   color: white;
   font-family: "Inter";
   font-size: 0.9rem;
@@ -597,7 +633,7 @@ ul li a:hover {
   border-radius: 20px;
 }
 
-.our_team_heading {
+.section4_our_team > h3 {
   color: white;
   font-size: 2.5rem;
   font-family: "Orbitron";
@@ -606,11 +642,11 @@ ul li a:hover {
   margin-bottom: 20px;
 }
 
-.span_our_team {
+.section4_our_team span {
   color: #2edaf1;
 }
 
-.our_team_paragraph {
+.section4_our_team > p {
   color: #ffffff70;
   text-align: center;
   width: 40%;
@@ -643,14 +679,14 @@ ul li a:hover {
   overflow: hidden;
 }
 
-.agriculture_photo {
+.team1_cover img {
   width: 100%;
   height: auto;
   object-fit: cover;
   transition: 0.5s;
 }
 
-.agriculture_photo:hover {
+.team1_cover img:hover {
   transform: scale(1.05);
 }
 
@@ -664,7 +700,7 @@ ul li a:hover {
   padding: 4%;
 }
 
-.team_about {
+.our_team_about > h3 {
   font-size: 2rem;
   color: white;
   font-family: "Electrolize";
@@ -678,7 +714,7 @@ ul li a:hover {
   color: #2edaf1;
 }
 
-.team_about_paragraph {
+.our_team_about > p {
   text-align: center;
   color: #ffffff70;
   font-family: "Inter";
@@ -804,11 +840,12 @@ ul li a:hover {
 }
 
 .trusted_text {
-  color: #ffffff70;
-  font-size: 1.1rem;
+  color: #748389;
   font-family: "Inter";
-  font-weight: 300;
+  font-weight: 200;
 }
+
+/* SECTION 6 */
 
 .section6_home {
   margin: 0 auto 150px;
@@ -855,15 +892,14 @@ footer {
   align-items: center;
 }
 
-.footer_div1 {
+.footer_list {
+  display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   gap: 30px;
-  /* border: 2px solid red; */
 }
 
-.footer_div1 a {
+.footer_list > ul li a {
   font-size: 0.9rem;
   color: white;
   font-family: "Orbitron";
@@ -951,7 +987,7 @@ footer {
   opacity: 0.9; */
 }
 
-.section1_membership_heading {
+.section1_membership > h3 {
   color: white;
   font-family: "Orbitron";
   font-weight: bold;
@@ -960,7 +996,7 @@ footer {
   margin-bottom: 1em;
 }
 
-.membership_plan {
+.section1_membership span {
   color: #2edaf1;
 }
 
@@ -1005,7 +1041,7 @@ footer {
   position: absolute;
   width: 100%;
   height: 0;
-  top: 0; 
+  top: 0;
   left: 0;
   border-radius: 10px;
   z-index: 1;
@@ -1014,14 +1050,11 @@ footer {
 
 .membership_cards1:hover::after {
   height: 100%; /* When hovering, set the height to 100%, and the background will transition smoothly from bottom to top */
-  
 }
 
 .service_cards1_photo {
   height: 450px;
 }
-
-
 
 .service_cards1_photo img {
   width: 100%;
@@ -1031,8 +1064,6 @@ footer {
   object-fit: cover;
 }
 
-
-
 .cards_info_box2 {
   padding-inline: 4%;
   position: absolute;
@@ -1040,10 +1071,24 @@ footer {
   z-index: 2;
 }
 
-
-
 .membership_heading {
-  margin-top: 280px;
+  margin: 280px 0 15px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Orbitron";
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.cards_paragraph {
+  color: white;
+  font-family: "Inter";
+  font-size: 0.9rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-bottom: 15px;
 }
 
 /* testimonial heading */
@@ -1271,8 +1316,8 @@ footer {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: auto auto auto; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
   align-items: stretch;
   gap: 2.5em;
   margin-bottom: 5em;
