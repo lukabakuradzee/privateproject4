@@ -5,6 +5,7 @@
   }
   .section1_heading_box {
     width: 100%;
+
   }
 
   .menu {
@@ -138,7 +139,7 @@
 
 /* FOOTER */ 
 
-.footer_div1  {
+.footer_list  {
   flex-wrap: wrap;
   gap: 60px;
   align-items: center;
@@ -149,6 +150,10 @@
 /* MEMBERSHIP PAGE */
 .section1_membership {
   min-height: 300px;
+}
+
+.section1_membership h3 {
+ font-size: 2.3rem;
 }
 .section2_membership {
   margin: 60px auto;
