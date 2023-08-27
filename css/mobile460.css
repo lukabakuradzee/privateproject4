@@ -1,25 +1,22 @@
-@media  (max-width: 460px) {
+@media (max-width: 460px) {
   /* SECTION 1 */
   .section1 {
     padding-top: 20%;
   }
   .section1_heading_box {
     width: 100%;
-
   }
 
   .menu {
     width: 80vw;
-    
   }
- 
+
   .section1 h2 {
     font-size: 2rem;
   }
 
   .section1_paragraph1 {
     font-size: 0.85rem;
-  
   }
 
   /* SECTION 2 WHY CHOOSE US */
@@ -86,7 +83,6 @@
   }
   .our_team_heading {
     font-size: 1.5rem;
-   
   }
 
   .our_team_paragraph {
@@ -97,216 +93,202 @@
     height: 250px;
   }
 
+  /* STATISTIC INFO */
+  .statistic_box1 {
+    width: 65%;
+  }
 
+  .globeicon,
+  .usericon,
+  .staricon,
+  .shieldicon {
+    font-size: 2.5rem;
+  }
 
-/* STATISTIC INFO */
-.statistic_box1 {
-  width: 65%;
-}
+  .partner_text {
+    font-size: 2rem;
+  }
 
-.globeicon,
-.usericon,
-.staricon,
-.shieldicon {
-  
-  font-size: 2.5rem;
-}
+  .trusted_text {
+    font-size: 0.85rem;
+  }
 
-.partner_text  {
-  font-size: 2rem;
-}
+  /* SECTION 6 HOME */
+  .section6_home {
+    padding: 5% 0 0;
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
 
-.trusted_text {
-  font-size: 0.85rem;
-}
+  .section6_photo {
+    width: 100%;
+  }
 
-/* SECTION 6 HOME */
-.section6_home {
-  padding: 5% 0 0;
-  margin-bottom: 100px;
-  flex-direction: column;
-}
+  .unlock_potential_home {
+    padding-inline: 3%;
+    width: 100%;
+  }
 
-.section6_photo {
-  width: 100%;
-}
+  /* FOOTER */
 
-.unlock_potential_home {
-  padding-inline: 3%;
-  width: 100%;
-}
+  .footer_list {
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+    place-content: center;
+  }
 
+  /* MEMBERSHIP PAGE */
+  .section1_membership {
+    min-height: 300px;
+  }
 
-/* FOOTER */ 
+  .section1_membership h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  .section2_membership {
+    margin: 60px auto;
+  }
 
-.footer_list  {
-  flex-wrap: wrap;
-  gap: 60px;
-  align-items: center;
-  place-content: center;
-}
+  .section1_membership_heading {
+    font-size: 1.5rem;
+    margin-bottom: 2em;
+  }
 
+  .membership_cards1 {
+    min-height: 320px;
+  }
+  .service_cards1_photo {
+    height: 350px;
+  }
 
-/* MEMBERSHIP PAGE */
-.section1_membership {
-  min-height: 300px;
-}
+  .membership_heading {
+    margin-top: 200px;
+  }
 
-.section1_membership h3 {
- font-size: 2rem;
- line-height: 1.3;
-}
-.section2_membership {
-  margin: 60px auto;
-}
+  .cards_info_box2 {
+    top: 8%;
+  }
 
+  .testimonials_heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
 
+  .tesimonials_box1 {
+    padding: 8% 6%;
+  }
 
-.section1_membership_heading {
-  font-size: 1.5rem;
-  margin-bottom: 2em;
-}
+  /* SECTION 5 */
 
-.membership_cards1 {
-  min-height: 320px;
-}
-.service_cards1_photo {
-  height: 350px;
-}
+  .section5_title {
+    width: 95%;
+  }
 
-.membership_heading {
-  margin-top: 200px;
-}
+  .find_your_question {
+    font-size: 1.6rem;
+  }
 
-.cards_info_box2 {
-  top: 8%;
-}
+  .question_rows_div1 {
+    padding: 6%;
+  }
 
-.testimonials_heading {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
+  .question_rows_div1 p {
+    line-height: 1.4;
+  }
 
-.tesimonials_box1 {
-  padding: 8% 6%;
-}
+  /* ABOUT PAGE */
+  .section1_about {
+    row-gap: 20px;
+  }
 
-/* SECTION 5 */
+  .transform_your_body {
+    font-size: 1.6rem;
+  }
+  .section1_about_photo {
+    height: 350px;
+  }
 
-.section5_title {
-  width: 95%;
-}
+  .button_ourservices {
+    width: 50%;
+  }
 
-.find_your_question {
-  font-size: 1.6rem;
-}
+  /* SECTION 3 ABOUT WATCH */
+  .section3_about_watch {
+    min-height: 300px;
+  }
 
-.question_rows_div1 {
-  padding: 6%;
-}
+  .watch_intro {
+    padding-top: 130px;
+  }
 
-.question_rows_div1 p {
-  line-height: 1.4;
-}
-
-
-
-/* ABOUT PAGE */
-.section1_about {
-  row-gap: 20px;
-}
-
-.transform_your_body {
-  font-size: 1.6rem;
-}
-.section1_about_photo {
-  height: 350px;
-}
-
-.button_ourservices {
-  width: 50%;
-}
-
-
-/* SECTION 3 ABOUT WATCH */
-.section3_about_watch {
-  min-height: 300px;
-}
-
-.watch_intro {
-  padding-top: 130px;
-}
-
-.watch_workouts_sessions {
-  font-size: 1.4rem;
-}
-
-/* SECTION 4 TITLE */
-.section4_about {
-  margin-bottom: 200px;
-}
-.section4_title {
-  width: 100%;
-}
-
-.cards_parent_trainers {
-  height: 400px;
-  width: 80%;
-}
-
-.soc_networks {
-  left: 25%;
-}
-
-.trainer_info {
-  left: 28%;
-}
-
-.trainer_name {
-  font-size: 1.1rem;
-}
-
-.trainer_position {
-  font-size: .85rem;
-}
-
-
-/* SECTION 5 UNLOCK YOUR POTENTIAL */
-.section5_unlock_potential {
-  flex-direction: column;
-  place-items: center;
-}
-
-  .unlock_your_potential_title  {
+  .watch_workouts_sessions {
     font-size: 1.4rem;
   }
-  
+
+  /* SECTION 4 TITLE */
+  .section4_about {
+    margin-bottom: 200px;
+  }
+  .section4_title {
+    width: 100%;
+  }
+
+  .cards_parent_trainers {
+    height: 400px;
+    width: 80%;
+  }
+
+  .soc_networks {
+    left: 25%;
+  }
+
+  .trainer_info {
+    left: 23%;
+  }
+
+  .trainer_name {
+    font-size: 1.1rem;
+  }
+
+  .trainer_position {
+    font-size: 0.85rem;
+  }
+
+  /* SECTION 5 UNLOCK YOUR POTENTIAL */
+  .section5_unlock_potential {
+    flex-direction: column;
+    place-items: center;
+  }
+
+  .unlock_your_potential_title {
+    font-size: 1.4rem;
+  }
+
   .section5_unlock_photo {
     width: 100%;
   }
-  
+
   .unlock_your_potential {
     width: 100%;
     margin-inline: auto;
-   
   }
-  
+
   .unlock_potential_paragarph {
     font-size: 0.9rem;
   }
-  
+
   .button_contact_us {
     font-size: 1rem;
     display: block;
     margin-inline: auto;
     margin-bottom: 20px;
-    
   }
-
 
   /* BLOG PAGE */
   .article_blog {
-   margin: 5em auto;
+    margin: 5em auto;
   }
 
   .card {
@@ -321,12 +303,10 @@
     font-size: 0.9rem;
   }
 
-.button_load_more {
-  font-size: 1rem;
-  padding-inline: 3em;
-}
-
-
+  .button_load_more {
+    font-size: 1rem;
+    padding-inline: 3em;
+  }
 
   /* CONTACT PAGE */
   .section1_contact {
@@ -341,24 +321,56 @@
     line-height: 1.4;
   }
 
- .get_in_touch {
-  font-size: 1.6rem;
-  line-height: 1.3;
- }
+  .get_in_touch {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
 
- .phone {
-  width: 100%;
- }
- .section2_contact {
-  width: 95%;
- }
+  .phone {
+    width: 100%;
+  }
+  .section2_contact {
+    width: 95%;
+  }
 
- .social_media_contact {
-  flex-direction: column;
-  gap: 30px;
- }
+  .social_media_contact {
+    flex-direction: column;
+    gap: 30px;
+  }
 
- iframe {
-  height: 330px;
- }
+  iframe {
+    height: 330px;
+  }
+}
+
+@media (max-width: 414px) {
+  .explore_box h3 {
+    width: 60%;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .explore_box p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .button_allservices {
+    width: 55%;
+  }
+
+  .our_team_about h3 {
+    font-size: 1.3rem;
+  }
+
+  .footer_list {
+    gap: 2rem;
+    display: flex;
+  }
+
+
+
+
+
+
 }
