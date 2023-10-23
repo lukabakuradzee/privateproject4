@@ -1,8 +1,10 @@
 'use strict';
 
 // Continue website box
-const alertBox = document.querySelector('.alert-box');
-alertBox.addEventListener('click', () => {
+const buttonAlertBox = document.querySelector('.button-alert-box');
+let alertBox = document.querySelector('.alert-box');
+buttonAlertBox.addEventListener('click', () => {
+   
    alertBox.remove();
    
 });
