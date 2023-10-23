@@ -1,4 +1,12 @@
 'use strict';
+
+// Continue website box
+const alertBox = document.querySelector('.alert-box');
+alertBox.addEventListener('click', () => {
+   alertBox.remove();
+   
+});
+
 // BurgerMenu
 
 let mobileMenu = document.querySelector(".menu");
@@ -59,6 +67,9 @@ xmark.addEventListener("click", () => {
   
     lastScrollPos = currentScrollPos;
   });
+
+
+
   
   
   
