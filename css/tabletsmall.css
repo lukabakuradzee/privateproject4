@@ -383,7 +383,14 @@ iframe {
 }
 
 
+.javascript_clock_container {
+  width: 45%;
+}
 
+
+#javascript_clock {
+  font-size: 1.2rem;
+}
 
 
 

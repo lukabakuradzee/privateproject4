@@ -154,8 +154,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
   const section4Heading = document.querySelector('.section4_heading');
 
@@ -194,6 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000); 
   });
 });
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const articles = document.querySelectorAll('.question_rows_div1');
