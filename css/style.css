@@ -4,8 +4,13 @@
 * Browsers: last 4 version
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000c14;
+
 }
 
 :root {
@@ -67,7 +72,7 @@ body {
   transform: translateX(-50%);
   border-radius: 20px;
   padding: 4em 2em; 
-  opacity: 0.9;
+  opacity: 0.93;
 
 }
 
@@ -108,7 +113,8 @@ body {
 .alert-box p {
   color: white;
   font-family: 'Electrolize';
-  letter-spacing: 1px;
+  font-weight: bold;
+  letter-spacing: 2px;
   margin-bottom: 2em;
   text-align: center;
 
@@ -2173,4 +2179,22 @@ iframe {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
     hue-rotate(0deg);
 }
+
+.javascript_clock_container {
+  background-color: #02212f;
+  width: 30%;
+  padding: 1em 3em;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+#javascript_clock {
+  padding: 0.5em 0;
+  color: #1acaf0;
+  font-family: monospace;
+  font-size: 1.7rem;
+  display: flex;
+  place-content: center;
+}
+
 

@@ -1,16 +1,21 @@
 'use strict';
 
 // Continue website box
+document.addEventListener('DOMContentLoaded', () => {
 const buttonAlertBox = document.querySelector('.button-alert-box');
-let alertBox = document.querySelector('.alert-box');
+const alertBox = document.querySelector('.alert-box');
+
 buttonAlertBox.addEventListener('click', () => {
-   
-   alertBox.remove();
-   
+  //  alertBox.remove();
+  alertBox.style.transform = 'translateX(200%)';
+  alertBox.style.transition = '2s ease';
+});
+
 });
 
 // BurgerMenu
 
+document.addEventListener('DOMContentLoaded', () => {
 let mobileMenu = document.querySelector(".menu");
 let burgmenu = document.querySelector(".burgmenu");
 let xmark = document.querySelector(".xmark");
@@ -26,11 +31,9 @@ xmark.addEventListener("click", () => {
   mobileMenu.classList.remove("show");
   burgmenu.style.display = "block";
   xmark.style.display = "none";
-
-  stopPropagation();
   });
 
-
+});
 
 
 
@@ -213,8 +216,31 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// contact page clock
+function digitalClock() {
+  const clock = document.getElementById("javascript_clock");
+  const now = new Date();
+  let hours = now.getHours();
+  let minutes = now.getMinutes();
+  let seconds = now.getSeconds();
+  let ampm = "AM";
+
+  if (hours > 12) {
+    hours -= 12;
+    ampm = "PM";
+  }
+
+  hours = hours.toString().padStart(2, "0");
+  minutes = minutes.toString().padStart(2, "0");
+  seconds = seconds.toString().padStart(2, "0");
+
+  const formattedTime = `${hours}:${minutes}:${seconds} ${ampm}`;
+  clock.textContent = formattedTime;
+}
 
 
+setInterval(digitalClock, 1000);
+digitalClock();
 
 
 
