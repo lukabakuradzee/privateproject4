@@ -12,6 +12,10 @@
     display: block;
   }
 
+  .blog_box {
+    display: none;
+  }
+
  
 
   .menu {
