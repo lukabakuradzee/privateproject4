@@ -467,7 +467,7 @@ ul li a:hover {
   display: flex;
   position: relative;
   opacity: 0;
-  transform: translateY(30%);
+  transform: translateY(31%);
   transition: transform 0.8s ease-in-out, opacity 0.5s ease-in-out;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
