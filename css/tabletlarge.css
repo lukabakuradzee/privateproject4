@@ -1,5 +1,7 @@
 @media (max-width: 1024px) {
-
+  .desktop_menu {
+    display: none;
+  }
   header {
     padding-inline: 3%;
   }

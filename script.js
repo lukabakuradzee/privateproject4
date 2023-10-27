@@ -32,6 +32,24 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Window Menu
+let windowMenuButton = document.querySelector('.desktop_menu')
+let windowMenu = document.querySelector('.window_menu');
+let containerBox = document.querySelector('.container')
+
+windowMenuButton.addEventListener('click', () => {
+  windowMenu.style.transform = 'translateX(0)';
+  containerBox.style.display = 'none';
+});
+
+let xmarkSecond = document.querySelector('.xmark_second');
+xmarkSecond.addEventListener('click', () => {
+  windowMenu.style.transform = 'translateX(200%)';
+  containerBox.style.display = 'block';
+})
+
+
+
 // Nav blog mouseover
 
 let blogMouserOver = document.querySelector(".blog");
@@ -237,3 +255,5 @@ function digitalClock() {
 
 setInterval(digitalClock, 1000);
 digitalClock();
+
+
